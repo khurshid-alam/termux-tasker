@@ -65,7 +65,6 @@
             android:name=".FireReceiver"
             android:exported="true"
             android:process=":background"
-            android:permission="${TERMUX_PACKAGE_NAME}.permission.RUN_COMMAND">
             <!-- This Intent filter allows the plug-in to discovered by Locale. -->
             <intent-filter>
                 <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
